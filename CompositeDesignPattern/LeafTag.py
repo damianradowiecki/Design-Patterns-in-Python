@@ -16,4 +16,4 @@ class LeafTag(Tag):
 		return self.attributes
 
 	def print(self):
-		print("<" + str(self.name) + "/>")
+		print("<" + self.name + "/>")

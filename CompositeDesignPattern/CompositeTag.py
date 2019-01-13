@@ -17,8 +17,8 @@ class CompositeTag(Tag):
 		return self.attributes
 
 	def print(self):
-		print("<" + str(self.name) + ">")
+		print("<" + self.name + ">")
 		for child in self.children:
 			print("\t", end="")
 			child.print()
-		print("</" + str(self.name) + ">")
+		print("</" + self.name + ">")
