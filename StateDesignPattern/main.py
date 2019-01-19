@@ -1,7 +1,7 @@
-from Robot import Robot
-from GoingState import GoingState
-from StandingState import StandingState
-from LyingState import LyingState
+from robot import Robot
+from going_state import GoingState
+from standing_state import StandingState
+from lying_state import LyingState
 
 robot = Robot()
 

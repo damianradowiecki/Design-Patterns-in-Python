@@ -1,4 +1,4 @@
-from RobotState import RobotState
+from robot_state import RobotState
 
 
 class StandingState(RobotState):
@@ -12,16 +12,16 @@ class StandingState(RobotState):
 
 	def go(self):
 		print("Changing state to GoingState")
-		from GoingState import GoingState
+		from going_state import GoingState
 		return GoingState()
 
 	def lie(self):
 		print("Changing state to LyingState")
-		from LyingState import LyingState
+		from lying_state import LyingState
 		return LyingState()
 
 	def jump(self):
 		print("Changing state to JumpingState")
-		from JumpingState import JumpingState
+		from jumping_state import JumpingState
 		return JumpingState()
 
