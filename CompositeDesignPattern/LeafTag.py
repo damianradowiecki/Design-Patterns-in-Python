@@ -5,14 +5,15 @@ class LeafTag(Tag):
 	def __init__(self, name, attributes):
 		self.name = name
 		self.attributes = attributes
+		self.children = {}
 
-	def getChildren(self):
+	def get_children(self):
 		return []
 
-	def getName(self):
+	def get_name(self):
 		return self.name
 
-	def getAttributes(self):
+	def get_attributes(self):
 		return self.attributes
 
 	def print(self):
