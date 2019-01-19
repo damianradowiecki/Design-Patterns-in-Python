@@ -1,10 +1,10 @@
 from StandingState import StandingState
 
+
 class Robot:
 
 	def __init__(self):
 		self.state = StandingState()
-
 
 	def on_stand(self):
 		self.state = self.state.stand()

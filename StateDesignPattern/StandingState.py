@@ -1,7 +1,6 @@
 from RobotState import RobotState
 
 
-
 class StandingState(RobotState):
 
 	def __init__(self):
@@ -25,3 +24,4 @@ class StandingState(RobotState):
 		print("Changing state to JumpingState")
 		from JumpingState import JumpingState
 		return JumpingState()
+

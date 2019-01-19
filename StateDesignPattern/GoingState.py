@@ -1,9 +1,11 @@
 from RobotState import RobotState
 
+
 class GoingState(RobotState):
 
 	def __init__(self):
 		print("I'm in GoingState")
+
 	def stand(self):
 		print("Changing state to StandingState")
 		from StandingState import StandingState

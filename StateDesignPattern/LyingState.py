@@ -1,5 +1,6 @@
 from RobotState import RobotState
 
+
 class LyingState(RobotState):
 
 	def __init__(self):
