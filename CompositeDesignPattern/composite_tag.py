@@ -1,4 +1,4 @@
-from Tag import Tag
+from tag import Tag
 
 
 class CompositeTag(Tag):

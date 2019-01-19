@@ -1,5 +1,5 @@
-from CompositeTag import CompositeTag
-from LeafTag import LeafTag
+from composite_tag import CompositeTag
+from leaf_tag import LeafTag
 
 
 tag1 = LeafTag("tag1", {"test":"value", "test2":"val3"})
